@@ -48,13 +48,6 @@ export default function HowItWorksPage() {
                 </div>
               </div>
               <div className="flex items-center justify-center">
-                <Image
-                  src="/placeholder.svg?height=300&width=500"
-                  width={500}
-                  height={300}
-                  alt="Nautisense process overview"
-                  className="rounded-lg object-cover"
-                />
               </div>
             </div>
           </div>

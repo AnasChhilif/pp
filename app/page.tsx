@@ -18,7 +18,7 @@ export default function Home() {
                 </h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl">
                   Nautisense provides cutting-edge sensor technology for maritime vessels, collecting vital data to help
-                  save our oceans and improve maritime transport efficiency.
+                  study our oceans.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -35,7 +35,7 @@ export default function Home() {
             </div>
             <div className="flex items-center justify-center">
               <Image
-                src="/placeholder.svg?height=550&width=550"
+                src="/ship.jpg?height=550&width=550"
                 width={550}
                 height={550}
                 alt="Nautisense sensor device attached to a ship"
@@ -166,7 +166,7 @@ export default function Home() {
             </div>
             <div className="flex items-center justify-center">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/image.webp?height=400&width=400"
                 width={400}
                 height={400}
                 alt="Nautisense data collection process"

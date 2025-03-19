@@ -18,13 +18,13 @@ export default function ClientLayout({ children }) {
     if (metaDescription) {
       metaDescription.setAttribute(
         "content",
-        "Nautisense provides cutting-edge sensor technology for maritime vessels, collecting vital data to help save our oceans and improve maritime transport efficiency.",
+        "Nautisense provides cutting-edge sensor technology for maritime vessels, collecting vital data to help study our oceans",
       )
     } else {
       const meta = document.createElement("meta")
       meta.name = "description"
       meta.content =
-        "Nautisense provides cutting-edge sensor technology for maritime vessels, collecting vital data to help save our oceans and improve maritime transport efficiency."
+        "Nautisense provides cutting-edge sensor technology for maritime vessels, collecting vital data to help study our oceans"
       document.head.appendChild(meta)
     }
   }, [])

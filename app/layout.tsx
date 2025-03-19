@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Nautisense",
   description:
-    "Nautisense provides cutting-edge sensor technology for maritime vessels, collecting vital data to help save our oceans and improve maritime transport efficiency.",
+    "Nautisense provides cutting-edge sensor technology for maritime vessels, collecting vital data to help study our oceans.",
     generator: 'v0.dev'
 }
 
