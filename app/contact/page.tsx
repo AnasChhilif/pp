@@ -58,11 +58,9 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold">Our Location</h3>
                     <p className="text-muted-foreground">
-                      123 Ocean Avenue
+                      930 Rte des Colles
                       <br />
-                      Maritime District
-                      <br />
-                      Rotterdam, Netherlands
+                      Biot, France
                     </p>
                   </div>
                 </div>
@@ -89,8 +87,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold">Call Us</h3>
                     <p className="text-muted-foreground">
-                      <Link href="tel:+31101234567" className="hover:underline">
-                        +31 10 123 4567
+                      <Link href="tel:+33169696969" className="hover:underline">
+                        +33 1 69 69 69 69
                       </Link>
                     </p>
                     <p className="text-sm text-muted-foreground">Monday to Friday, 9am to 5pm CET</p>
@@ -134,8 +132,6 @@ export default function ContactPage() {
                         </SelectTrigger>
                         <SelectContent>
                           <SelectItem value="research">Research Collaboration</SelectItem>
-                          <SelectItem value="basic">Basic Plan</SelectItem>
-                          <SelectItem value="professional">Professional Plan</SelectItem>
                           <SelectItem value="enterprise">Enterprise Solution</SelectItem>
                           <SelectItem value="other">Other</SelectItem>
                         </SelectContent>
