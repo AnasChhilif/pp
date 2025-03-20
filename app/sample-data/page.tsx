@@ -296,19 +296,15 @@ export default function SampleDataPage() {
                   </CardHeader>
                   <CardContent>
                     <Tabs defaultValue="waterQuality">
-                      <TabsList className="grid w-full grid-cols-3">
+                      <TabsList className="grid w-full grid-cols-2">
                         <TabsTrigger value="waterQuality">Water Quality</TabsTrigger>
                         <TabsTrigger value="emissions">Emissions</TabsTrigger>
-                        <TabsTrigger value="marineLife">Marine Life</TabsTrigger>
                       </TabsList>
                       <TabsContent value="waterQuality" className="mt-4">
                         <DataVisualization data={selectedTrip.data} type="waterQuality" />
                       </TabsContent>
                       <TabsContent value="emissions" className="mt-4">
                         <DataVisualization data={selectedTrip.data} type="emissions" />
-                      </TabsContent>
-                      <TabsContent value="marineLife" className="mt-4">
-                        <DataVisualization data={selectedTrip.data} type="marineLife" />
                       </TabsContent>
                     </Tabs>
                   </CardContent>

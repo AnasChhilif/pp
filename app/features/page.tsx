@@ -81,7 +81,7 @@ export default function FeaturesPage() {
             </div>
             <div className="flex items-center justify-center">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/sensor-array.png?height=400&width=400"
                 width={400}
                 height={400}
                 alt="Nautisense sensor array"
@@ -261,7 +261,7 @@ export default function FeaturesPage() {
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:grid-cols-2 items-center">
             <div className="flex items-center justify-center order-2 lg:order-1">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/cloud.jpg?height=400&width=400"
                 width={400}
                 height={400}
                 alt="Nautisense dashboard"
