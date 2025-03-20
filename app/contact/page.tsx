@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { ArrowRight, Mail, MapPin, Phone } from "lucide-react"
+import { ArrowRight, Linkedin, Mail, MapPin, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -92,6 +92,12 @@ export default function ContactPage() {
                       </Link>
                     </p>
                     <p className="text-sm text-muted-foreground">Monday to Friday, 9am to 5pm CET</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                <Linkedin className="h-6 w-6 text-primary mt-1"/>
+                  <div>
+                    <h3 className="font-bold">Nautisense inc.</h3>
                   </div>
                 </div>
               </div>

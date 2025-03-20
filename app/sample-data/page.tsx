@@ -191,13 +191,6 @@ export default function SampleDataPage() {
           { key: "nox", label: "NOx (kg)" },
           { key: "sox", label: "SOx (kg)" },
         ])
-      case "marineLife":
-        return renderTable(data.marineLife, [
-          { key: "date", label: "Date" },
-          { key: "whales", label: "Whales Spotted" },
-          { key: "dolphins", label: "Dolphins Spotted" },
-          { key: "seabirds", label: "Seabirds Spotted" },
-        ])
       default:
         return null
     }
@@ -352,12 +345,18 @@ export default function SampleDataPage() {
             </div>
           </div>
 
-          <div className="flex justify-center mt-8">
-            <Link href="/#pricing">
+          <div className="flex justify-center mt-8 gap-4">
+            <Link href="/contact">
               <Button size="lg" className="px-8">
                 Get Nautisense for Your Research
               </Button>
             </Link>
+            <a target='_blank'
+            rel='noopener noreferrer' href="https://nautisense.vercel.app">
+              <Button size="lg" className="px-8 bg-white text-black hover:text-white">
+                Explore data in further detail.
+              </Button>
+            </a>
           </div>
         </div>
       </main>
